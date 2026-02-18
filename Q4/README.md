@@ -65,7 +65,7 @@ For a larger app with more global state, Riverpod or Bloc would be better.
 ```bash
 # 1. Clone the repo (if you haven’t already)
 git clone <repo-url>
-cd rushowl
+cd flutter-senior-fe-assessment
 
 # 2. Go to the app and install Flutter version + dependencies
 cd Q4/source/food_delivery_app

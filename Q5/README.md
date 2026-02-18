@@ -33,7 +33,7 @@ This folder contains a Flutter voucher selection and QR code payment app generat
 ```bash
 # 1. Clone the repo (if you haven't already)
 git clone <repo-url>
-cd rushowl
+cd flutter-senior-fe-assessment
 
 # 2. Go to the app and install Flutter version + dependencies
 cd Q5/source/voucher_app
