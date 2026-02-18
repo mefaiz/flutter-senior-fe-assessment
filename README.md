@@ -26,11 +26,11 @@ This repository contains my submission for the Senior Frontend Engineer (Flutter
 
 ## Submission Checklist
 
-- [ ] Public GitHub repo created
-- [ ] ./Q1/ — naïve and optimised projects + README
-- [ ] ./Q2/ — written essay + optional supporting material
-- [ ] ./Q4/ — prompt, source code, recording, README
-- [ ] ./Q5/ — prompt, source code, recording, README
-- [ ] All Flutter projects compile without errors
-- [ ] All screen recordings are viewable
-- [ ] Repository link shared via email
+- [x] Public GitHub repo created
+- [x] ./Q1/ — naïve and optimised projects + README
+- [x] ./Q2/ — written essay + optional supporting material
+- [x] ./Q4/ — prompt, source code, recording, README
+- [x] ./Q5/ — prompt, source code, recording, README
+- [x] All Flutter projects compile without errors
+- [x] All screen recordings are viewable
+- [x] Repository link shared via email
