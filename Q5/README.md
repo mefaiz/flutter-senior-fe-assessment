@@ -7,7 +7,7 @@ This folder contains a Flutter voucher selection and QR code payment app generat
 
 1. **Project structure:** `lib/constants/` (AppStrings, AppDimens, AppColors), `lib/utils/` (Format.price, SnackBar helper), `lib/extensions/` (VoucherItem display), `lib/models/`, `lib/data/` (mock vouchers, SelectionProvider), `lib/screens/`, `lib/widgets/`.
 2. **State management:** Provider at root with `SelectionProvider` (single responsibility: selection state). Consumer / context.read in screens.
-3. **Platforms:** iOS and Android only (`--platforms=ios,android`).
+3. **Platforms:** iOS, Android, and web (`--platforms=ios,android,web`).
 4. **Quality:** flutter_lints, `fvm flutter analyze` clean. AppBar (scrolledUnderElevation: 0, surfaceTintColor: transparent), CardThemeData, Color.withValues(alpha:) where needed.
 
 ## Structure
@@ -41,6 +41,7 @@ fvm install                    # installs Flutter 3.32.8 if needed
 fvm flutter pub get
 
 # 3. Run the app (pick one)
+fvm flutter run -d chrome        # web
 fvm flutter run -d ios          # iOS simulator
 fvm flutter run -d android      # Android emulator
 ```

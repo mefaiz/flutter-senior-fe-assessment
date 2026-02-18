@@ -45,6 +45,7 @@ lib/
 - **QR content:** Plain string of comma-separated amounts (e.g. "2,2,10") via `qr_flutter`.
 - **Buttons:** Primary = indigo; secondary (Back) = grey outline.
 - **SnackBar:** Floating, consistent style (primaryLight background, bold text) via `showAppSnackBar`.
+- **Platforms:** iOS, Android, and web; flutter_lints and `fvm flutter analyze` clean.
 
 ## Running
 
@@ -53,6 +54,7 @@ From this directory:
 ```bash
 fvm install
 fvm flutter pub get
-fvm flutter run -d ios    # or -d android
+fvm flutter run -d chrome    # web
+fvm flutter run -d ios      # or -d android
 ```
 
