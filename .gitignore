@@ -1,0 +1,68 @@
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/.idea/
+**/android/app/build/
+**/android/build/
+**/android/.dart_tool/
+**/android/.flutter-plugins
+**/android/.flutter-plugins-dependencies
+**/android/.packages
+**/android/.pub-cache/
+**/android/.pub/
+**/android/ios/
+**/android/.fvm/
+**/android/fvmrc
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Recording files (if large)
+*.mp4
+*.mov
+*.avi
+# Keep small demo recordings, but ignore large ones
+# Add specific recording files to git if needed
+
+# Documentation
+*.docx
+*.doc
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
